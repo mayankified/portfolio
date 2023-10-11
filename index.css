@@ -7,10 +7,7 @@ body,html {
     background:rgb(0, 0, 0);
     scroll-behavior: smooth;
 }
-@font-face {
-    font-family: arti;
-    src: url(/ASSETS/FontleroyBrownNF.ttf);
-   }
+
 #loading {
     width: 100vw;
     height: 100vh;
@@ -36,7 +33,7 @@ body,html {
     100% {transform: rotate(360deg);}
 }
 #titties{
-    font-family: arti;
+    font-family: 'Pixelify Sans', sans-serif;
     color: #E24A58;
     font-size: 5em;
     font-weight: 100;
