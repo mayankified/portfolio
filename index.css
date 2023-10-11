@@ -103,15 +103,11 @@ span{
     padding: 3px;
     border-radius: 5px;
 }
-td{
-    padding: 20px;
-}
-/* tr{
-    padding: 10px;
+
+/* .as{
+    display: flex;
+    justify-content: space-between;
 } */
-table{
-    width: 80vw;
-}
 
 #skills {
     margin:4vh 0px !important;
@@ -274,4 +270,35 @@ table{
     color: #E24A58 ;
     font-size: large;
     text-decoration: none;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+    width: 150px; 
+    padding: 15px;
+    /* border-bottom: 1px solid #fff; */
+    /* border-radius: 10px; */
+    /* background-color: #f9f9f9; */
+}
+
+.skill img {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    font-weight: bold;
+    display: block;
+    color: white;
+    background-color: black;
 }
