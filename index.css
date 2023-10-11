@@ -52,7 +52,9 @@ body,html {
 }
 #title{
     color: #E24A58;
-    font-size: 40px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
     /* text-align: center; */
 }
 #links {
