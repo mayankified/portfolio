@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
-
 body,html {
     padding:0px;
     margin:0px;
@@ -51,8 +50,8 @@ body,html {
     display:block;
 }
 #title{
-    color: #E24A58;
     font-family: 'Pixelify Sans', sans-serif;
+    color: #E24A58;
     font-weight: 200;
     font-size: 50px;
     /* text-align: center; */
